@@ -125,24 +125,24 @@ html {
   }
 }
 
-#home {
+#image {
   position: relative;
   margin: 0px auto;
   text-align: center;
 }
-#home #background-pic {
+#image #background-pic {
   max-width: 1200px;
   width: 80%;
   position: relative;
   margin-top: 30px;
 }
 @media screen and (max-width: 1000px) {
-  #home #background-pic {
+  #image #background-pic {
     width: 100%;
   }
 }
 @media screen and (max-width: 767px) {
-  #home #background-pic {
+  #image #background-pic {
     margin-top: 80px;
   }
 }
@@ -531,7 +531,7 @@ html {
   }
 }
 
-#footer {
+#contact-info {
   color: #313131;
   background-color: white;
   height: 100px;
@@ -539,7 +539,7 @@ html {
   padding-left: calc((100vw - 770px)/2);
 }
 @media screen and (max-width: 1000px) {
-  #footer {
+  #contact-info {
     padding: 10%;
   }
 }
