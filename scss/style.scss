@@ -222,7 +222,7 @@ html {
 }
 
 //SKILLS
-#skills {
+#skill {
   overflow: hidden;
   height: 400px;
   width: 700px;
@@ -315,7 +315,7 @@ html {
 }
 
 //PROJECTS
-#projects {
+#project {
   padding: 80px 0px;
   justify-content: center;
   .top-border {
@@ -452,7 +452,7 @@ html {
   color: $text-two;
   padding: 40px 0px;
   height: calc(100vh - 160px);
-  max-height: 600px;
+  max-height: 700px;
   width: 100%;
   text-align: center;
   background-color: $block-color;
