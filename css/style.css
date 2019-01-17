@@ -566,6 +566,11 @@ html {
   animation-iteration-count: 4;
 }
 
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
 @keyframes come-in {
   to {
     transform: translateX(0);
