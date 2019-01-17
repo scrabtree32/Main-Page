@@ -58,7 +58,7 @@ $(document).ready(function() {
  })(jQuery);
   
  var win = $(window),
-     allMods = $("#contact, .col2, .col1, #bio, #skills, .fa");
+     allMods = $("#contact, .col2, .col1, #bio, #skill, .fa");
 
 allMods.each(function(i, elem) {
   var el = $(elem),
