@@ -57,8 +57,22 @@ $(document).ready(function() {
     
  })(jQuery);
   
+ var win = $(window),
+     allMods = $("#contact, .col2, .col1, #bio, #skills, .fa");
+
+allMods.each(function(i, elem) {
+  var el = $(elem),
+      body = $(window),
+      offset = el.offset();
+  if (el.visible(true)) {
+    el.addClass("already-visible"); 
+  } else if (offset.top < body.scrollTop()) {
+    el.addClass("already-visible");
+  }
+});
+  
   //if in view, add class come-in
- $(window).scroll(function(event) {
+ win.scroll(function(event) {
   
   $("#contact, .col2").each(function(i, el) {
     var el = $(el);
