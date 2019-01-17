@@ -88,7 +88,7 @@ allMods.each(function(i, elem) {
     } 
   });
    
-  $("#bio, #skills").each(function(i, el) {
+  $("#bio, #skill").each(function(i, el) {
     var el = $(el);
     if (el.visible(true)) {
       el.addClass("come-in-bottom"); 
