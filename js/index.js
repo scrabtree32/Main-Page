@@ -3,7 +3,7 @@ $(document).ready(function() {
   
   $(window).scroll(function() {
     if($(this).width() > 767) {
-      if($(this).scrollTop() > 160) { 
+      if($(this).scrollTop() > 170) { 
           $('.navbar').addClass('stick');
       } else {
           $('.navbar').removeClass('stick');
