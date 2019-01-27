@@ -30,15 +30,18 @@ html {
     color: $text-one;
     text-align: center;
     width: 100%;
-    height: 35px;
+    height: 80px;
+    .developer {
+      font-size: 20px; //NEW
+    }
     @media screen and (max-width: 767px) {
      position: absolute;
-     top: 60px;
+     top: 50px;
      left: 60px;
      width: calc(100% - 60px);
     }
-    @media screen and (max-width: 416px) {
-      top: 35px;
+    @media screen and (max-width: 400px) {
+      top: 15px;
     }
   }
 
@@ -174,7 +177,7 @@ html {
     width:350px;
     height: 400px;
     float:right;
-    background: black url(https://res.cloudinary.com/suzannecrabtree715/image/upload/r_0/v1513972164/profilepic_q5pdqj.jpg) center bottom no-repeat;
+    background: black url(https://res.cloudinary.com/suzannecrabtree715/image/upload/a_0/v1548615413/00100dPORTRAIT_00100_BURST20190127102150417_COVER_gaglgf.jpg) left bottom no-repeat;
     background-size:cover;
     shape-outside: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
     shape-margin: 10px;
